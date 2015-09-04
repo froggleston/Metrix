@@ -4,7 +4,7 @@
   <groupId>nki</groupId>
   <artifactId>metrix</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-2014-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Metrix Illumina InterOp server/client framework</name>
   <url>https://github.com/NKI-GCF/Metrix</url>
 
@@ -25,18 +25,46 @@
   </description>
   
   <inceptionYear>2013</inceptionYear>
-  
+
+  <issueManagement>
+    <system>github.com</system>
+    <url>https://github.com/NKI-GCF/Metrix/issues</url>
+  </issueManagement>
+
   <developers>
-      <developer>
-         <name>Bernd van der Veen</name>
-         <email>berndvanderveen@gmail.com</email>
-         <organization>NKI-AVL</organization>
-         <roles>
-            <role>Original source code developer</role>
-         </roles>
-      </developer>
+    <developer>
+       <name>Bernd van der Veen</name>
+       <email>berndvanderveen@gmail.com</email>
+       <organization>NKI-AVL</organization>
+       <roles>
+          <role>Original source code developer</role>
+       </roles>
+    </developer>
+
+    <developer>
+       <name>Robert Davey</name>
+       <email>robert.davey@tgac.ac.uk</email>
+       <organization>TGAC</organization>
+       <roles>
+          <role>TGAC MISO LIMS developer</role>
+       </roles>
+    </developer>
   </developers>
-  
+
+  <distributionManagement>
+    <downloadUrl>https://repos.tgac.ac.uk/maven/repo</downloadUrl>
+    <repository>
+      <id>tgac-repo</id>
+      <name>TGAC Maven Repository</name>
+      <url>scp://repos.tgac.ac.uk/storage/html/maven/repo</url>
+    </repository>
+    <snapshotRepository>
+      <id>tgac-repo</id>
+      <name>TGAC Maven Repository</name>
+      <url>scp://repos.tgac.ac.uk/storage/html/maven/repo</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <repositories>  
     <repository>
       <id>Atlassian Maven Repository</id>
