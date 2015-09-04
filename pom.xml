@@ -4,7 +4,7 @@
   <groupId>nki</groupId>
   <artifactId>metrix</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>Metrix Illumina InterOp server/client framework</name>
   <url>https://github.com/NKI-GCF/Metrix</url>
 
@@ -30,7 +30,7 @@
     <system>github.com</system>
     <url>https://github.com/NKI-GCF/Metrix/issues</url>
   </issueManagement>
-
+      
   <developers>
     <developer>
        <name>Bernd van der Veen</name>
